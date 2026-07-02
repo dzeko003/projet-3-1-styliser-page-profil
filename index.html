@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Page de profil personnel de Berenis MASSAMBA — Développeur Full-Stack basé au Congo Brazzaville."
+    />
+    <meta name="author" content="Berenis MASSAMBA" />
+    <title>Berenis MASSAMBA - Developpeur Full-Stack</title>
+
+    <!-- Google Fonts : JetBrains Mono (titres/labels) + Inter (corps de texte) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feuille de style externe -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- #############################  Header ################################# -->
+    <header class="site-header">
+      <img
+        class="profile-photo"
+        src="./images/KEY_4483.jpg"
+        alt="photo Berenis"
+        width="150"
+        height="150"
+      />
+
+      <h1 class="name">Berenis MASSAMBA</h1>
+      <p class="role-tagline">
+        <strong>Développeur Full-Stack</strong>
+        Brazzaville , Congo
+      </p>
+
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#bio">À propos</a></li>
+          <li><a class="nav-link" href="#competences">Compétences</a></li>
+          <li><a class="nav-link" href="#formation">Formation</a></li>
+          <li><a class="nav-link" href="#reseaux">Réseaux sociaux</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- #############################  Main ################################# -->
+    <main>
+      <!-- section bio -->
+      <section
+        class="section section--bio"
+        id="bio"
+        aria-labelledby="bio-titre"
+      >
+        <h2 class="section-title" id="bio-titre">À propos de moi</h2>
+        <p class="bio-text">
+          Je suis développeur Full-Stack passionné par la création d'expériences
+          web modernes et performantes. Basé à Brazzaville, je travaille
+          principalement avec l'écosystème
+          <strong>React / Next.js</strong> côté frontend et
+          <strong>Laravel / Symfony</strong>
+          côté backend.
+        </p>
+      </section>
+
+      <!-- section competences -->
+      <section
+        class="section section--skills"
+        id="competences"
+        aria-labelledby="competences-titre"
+      >
+        <h2 class="section-title" id="competences-titre">
+          Compétences techniques
+        </h2>
+
+        <h3 class="skills-subtitle">Frontend</h3>
+        <ul class="skills-list">
+          <li class="skill-item">HTML 5 , CSS3</li>
+          <li class="skill-item">JavaScript</li>
+          <li class="skill-item">TypeScript</li>
+          <li class="skill-item">React Js</li>
+          <li class="skill-item">Next Js</li>
+          <li class="skill-item">Tailwind</li>
+        </ul>
+
+        <h3 class="skills-subtitle">Backend</h3>
+        <ul class="skills-list">
+          <li class="skill-item">PHP</li>
+          <li class="skill-item">Symfony</li>
+          <li class="skill-item">Laravel</li>
+          <li class="skill-item">Mysql</li>
+          <li class="skill-item">PostMan</li>
+        </ul>
+
+        <h3 class="skills-subtitle">DevOps</h3>
+        <ul class="skills-list">
+          <li class="skill-item">Docker</li>
+          <li class="skill-item">Traefik</li>
+          <li class="skill-item">AWS</li>
+          <li class="skill-item">Git</li>
+          <li class="skill-item">Github</li>
+          <li class="skill-item">Linux</li>
+        </ul>
+      </section>
+
+      <!-- section formation -->
+      <section
+        class="section section--formation"
+        id="formation"
+        aria-labelledby="formation-titre"
+      >
+        <h2 class="section-title" id="formation-titre">
+          Formation et Apprentissage
+        </h2>
+        <dl class="timeline">
+          <dt class="timeline-title">Développement Web Full-Stack</dt>
+          <dd class="timeline-desc">
+            Auto-formation : React , Next.Js , TypeScript , Docker
+          </dd>
+
+          <dt class="timeline-title">Parcours Codecademy</dt>
+          <dd class="timeline-desc">CSS , Grid , Flexbox , Git , Github</dd>
+
+          <dt class="timeline-title">Algorithme</dt>
+          <dd class="timeline-desc">
+            Generation de labyrunthes , boucles impriqués , fonctions
+            factorielles etc...
+          </dd>
+
+          <dt class="timeline-title">Architecture DevOps</dt>
+          <dd class="timeline-desc">
+            Mise en place de pipeline CI/CD Github Actions , gestion des secrets
+            SSH , déploiement multi-services
+          </dd>
+        </dl>
+      </section>
+
+      <!-- section reseau sociaux -->
+      <section
+        class="section section--social"
+        id="reseaux"
+        aria-labelledby="reseaux-titre"
+      >
+        <h2 class="section-title" id="reseaux-titre">Retrouvez-moi sur</h2>
+
+        <ul class="social-list">
+          <li>
+            <a
+              class="social-link"
+              href="https://github.com/dzeko003"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil GitHub de Berenis"
+            >
+              GitHub — github.com/berenis
+            </a>
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/berenis-massamba-32199b220/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil LinkedIn de Berenis"
+            >
+              LinkedIn — linkedin.com/in/berenis
+            </a>
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="https://twitter.com/berenis_dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil X / Twitter de Berenis"
+            >
+              X (Twitter) — @berenis_dev
+            </a>
+          </li>
+          <li>
+            <a
+              class="social-link"
+              href="mailto:berenismassamba@gmail.com"
+              aria-label="Envoyer un e-mail à Berenis"
+            >
+              E-mail — berenis@example.com
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Formulaire de contact -->
+      <section
+        class="section section--contact"
+        id="contact"
+        aria-labelledby="contact-titre"
+      >
+        <h2 class="section-title" id="contact-titre">Contactez-moi</h2>
+
+        <p class="bio-text">
+          Une idée de projet, une question ou simplement envie d'échanger ?
+          Remplissez le formulaire ci-dessous et je vous répondrai dans les plus
+          brefs délais.
+        </p>
+
+        <form class="contact-form" action="#" method="post" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="nom"
+              >Nom complet <abbr title="Champ obligatoire">*</abbr>
+            </label>
+            <input
+              class="form-control"
+              type="text"
+              id="nom"
+              name="nom"
+              placeholder="marie LOUBAKI"
+              required
+              aria-required="true"
+              autocomplete="name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">
+              Adresse email <abbr title="Champ obligatoire">*</abbr>
+            </label>
+            <input
+              class="form-control"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="marie@example.com"
+              required
+              aria-required="true"
+              autocomplete="email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="sujet">Sujet</label>
+            <input
+              class="form-control"
+              type="text"
+              id="sujet"
+              name="sujet"
+              placeholder="Proposition de collaboration"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="type-demande">Type de demande</label>
+            <select class="form-control" id="type-demande" name="type-demande">
+              <option value="">-- Choisir une option --</option>
+              <option value="projet">Projet freelance</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="question">Question technique</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message"
+              >Message <abbr title="Champ obligatoire">*</abbr></label
+            >
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="6"
+              cols="50"
+              placeholder="Décrivez votre projet ou votre demande..."
+              required
+              aria-required="true"
+            ></textarea>
+          </div>
+
+          <div class="form-group form-group--checkbox">
+            <input
+              class="form-checkbox"
+              type="checkbox"
+              id="consentement"
+              name="consentement"
+              required
+              aria-required="true"
+            />
+            <label class="form-label" for="consentement">
+              J'accepte que mes données soient utilisées pour traiter ma
+              demande.
+            </label>
+          </div>
+
+          <div class="form-group form-actions">
+            <button class="btn btn-primary" type="submit">
+              Envoyer le message
+            </button>
+            <button class="btn btn-secondary" type="reset">
+              Réinitialiser
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <hr class="footer-divider" />
+      <p><a class="back-to-top" href="#top"> Retour en haut</a></p>
+
+      <address class="footer-address">
+        Berenis · Développeur Full-Stack<br />
+        Brazzaville, République du Congo<br />
+        <a href="mailto:berenis@example.com">berenismassamba@gmail.com</a>
+      </address>
+
+      <p>
+        <small class="footer-note">
+          &copy; <time datetime="2026">2026</time> Berenis. Tous droits
+          réservés. Page réalisée en HTML5 pur — aucun CSS, aucun JavaScript.
+        </small>
+      </p>
+    </footer>
+  </body>
+</html>
