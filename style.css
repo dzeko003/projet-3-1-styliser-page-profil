@@ -131,7 +131,7 @@ body {
 }
 
 /* =====================================================
-   SECTIONS (communes)
+   SECTIONS 
    ===================================================== */
 .section {
   background-color: var(--color-surface);
@@ -203,7 +203,7 @@ body {
 }
 
 /* =====================================================
-   FORMATION (timeline en dl)
+   FORMATION 
    ===================================================== */
 .timeline {
   border-left: 2px solid var(--color-border);
