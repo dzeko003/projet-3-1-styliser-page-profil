@@ -107,6 +107,17 @@ Ouvrez ensuite le fichier `index.html` dans votre navigateur.
 
 ---
 
+## Aperçu
+
+Une version en ligne du projet est disponible via GitHub Pages :
+
+**Démo :**  
+https://dzeko003.github.io/projet-3-1-styliser-page-profil/
+
+Vous pouvez consulter directement la landing page dans votre navigateur sans avoir à cloner le dépôt.
+
+---
+
 ## Auteur
 
 **Berenis MASSAMBA**
